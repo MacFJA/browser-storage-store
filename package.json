@@ -1,0 +1,44 @@
+{
+  "name": "@macfja/browser-storage-store",
+  "module": "dist/index.mjs",
+  "version": "1.0.0",
+  "description": "Set of Store that can use your browser Storage API to persist data.",
+  "main": "dist/index.js",
+  "scripts": {
+    "doc": "esdoc",
+    "lint": "eslint src",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macfja/browser-storage-store.git"
+  },
+  "author": "MacFJA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macfja/browser-storage-store/issues"
+  },
+  "homepage": "https://github.com/macfja/browser-storage-store#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "esdoc": "^1.1.0",
+    "esdoc-importpath-plugin": "^1.0.2",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^7.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "rollup": "^2.0.0"
+  },
+  "keywords": [
+    "svelte",
+    "store",
+    "svelte-store",
+    "localStorage",
+    "sessionStorage",
+    "StorageAPI"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ]
+}
